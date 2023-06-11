@@ -40,3 +40,10 @@ body{
     width: 100%; /* Set the image width to 100% of the container */
     height: auto; /* Allow the height to adjust automatically while maintaining aspect ratio */
   }
+
+
+@media (max-width: 991px) {
+    .container{
+      width: 90%;
+    }
+}

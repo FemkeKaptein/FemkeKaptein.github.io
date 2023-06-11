@@ -30,4 +30,12 @@ window.addEventListener("DOMContentLoaded", () =>{
             }
         })
     }
+
+
+    //make logo clickable and redirect to homepage
+    document.querySelector(".logo").addEventListener("click", () =>{
+        if (!window.location.href.includes('index.html')){
+            window.location.href = 'index.html'
+        }
+    })
 })
