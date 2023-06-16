@@ -1,6 +1,12 @@
 body{
     font-family: system-ui;
-    
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+    display: block;
 }
 
 #header{
