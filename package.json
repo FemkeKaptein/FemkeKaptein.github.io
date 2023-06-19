@@ -1,0 +1,26 @@
+{
+  "name": "femkekaptein.github.io",
+  "version": "1.0.0",
+  "description": "Hi,",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FemkeKaptein/FemkeKaptein.github.io.git"
+  },
+  "author": "Quinten Hoogkamer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FemkeKaptein/FemkeKaptein.github.io/issues"
+  },
+  "homepage": "https://github.com/FemkeKaptein/FemkeKaptein.github.io#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.5"
+  }
+}

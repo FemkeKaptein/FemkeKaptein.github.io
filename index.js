@@ -1,4 +1,11 @@
-window.addEventListener("DOMContentLoaded", () =>{
+
+
+
+
+    handlGridItemClick();
+
+
+function handlGridItemClick(){
     const gridItems = document.querySelectorAll(".grid-item")
 
 
@@ -30,5 +37,5 @@ window.addEventListener("DOMContentLoaded", () =>{
             }
         })
     }
+}
 
-})

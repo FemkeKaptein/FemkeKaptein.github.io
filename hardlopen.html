@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="hardlopenWandelen.css">
-    <script src="hardlopenAndWandelen.js"></script>
+    <link rel="stylesheet" href="content.css">
+    <script defer src="content.js"></script>
+    <title></title>
 </head>
 <body>
     <!-- nav-bar      -->
@@ -72,6 +73,24 @@
                         <img src="img/nov15_valencia7.JPG" alt="Photo 3">
                       </div>
                      </div>
+
+          <div data-index = "1" data-type = "hardlopen" class="comment-section">
+              <h2>Reacties</h2>
+              <button data-index = "1" class="toggle-comments">Toggle Reactie</button>
+              <div class="comments-container">
+                  <!-- Comment items will be dynamically added here -->
+              </div>
+              <div  class="comment-form">
+                  <h3>Voeg een reactie toe.</h3>
+                  <form class="add-comment-form">
+                      <label for="name2">Naam:</label>
+                      <input type="text" class="name" id="name2" name="name" required>
+                      <label for="message2">Bericht:</label>
+                      <textarea class="message" id="message2" name="message"  required></textarea>
+                      <button class="submit" type="submit">Versturen</button>
+                  </form>
+              </div>
+          </div>
 
         </div>
 
