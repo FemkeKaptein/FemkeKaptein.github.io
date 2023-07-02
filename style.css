@@ -45,6 +45,19 @@ img{
     cursor: pointer;
   }
 
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkedin-img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
   #homepagefoto{
     width: 100vw;
   }
