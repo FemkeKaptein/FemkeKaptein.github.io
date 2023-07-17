@@ -6,7 +6,8 @@ window.addEventListener("DOMContentLoaded", () => {
     console.log(targetElement);
     if(targetElement){
         targetElement.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
+            block: 'start'
         })
     }
 

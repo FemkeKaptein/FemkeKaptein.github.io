@@ -2,6 +2,9 @@ body{
     font-family: system-ui;
     font-size: 1.125rem;
     line-height: 1.6;
+
+    background-color: #ffffff;
+    color: #000000;
 }
 
 img{
@@ -10,10 +13,10 @@ img{
 }
 
 #header{
-    background-color: #e5e6e0;
-    color: black;
     padding: 20px; 
     width: 100%; 
+    background-color: #e5e6e0;
+    color: black;
 }
 
 .list-item{
@@ -63,34 +66,34 @@ img{
   }
 
   .image-container {
-    position: relative; /* Make the container a positioned element */
-    display: inline-block; /* Preserve the container's size */
+    position: relative; 
+    display: inline-block;
   }
 
   .text-overlay {
-    position: absolute; /* Position the text relative to the container */
-    top: 80px; /* Position at the top */
-    left: 90px; /* Position at the left */
-    padding: 10px; /* Add some padding if desired */
-    color: black; /* Set the text color */
-    font-size: 2em; /* Set the font size */
-    font-weight: bold; /* Set the font weight */
+    position: absolute;
+    top: 80px; 
+    left: 90px; 
+    padding: 10px; 
+    color: black; 
+    font-size: 2em; 
+    font-weight: bold; 
     width: 30%;
     background-color: #e5e6e0;
   }
 
   .grid-container {
-    display: grid; /* Set the container as a grid */
-    grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
-    grid-gap: 10px; /* Add a gap of 10px between grid items */
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
   }
 
   .grid-item {
     display: flex;
     flex-direction: column;
-    background-color: #e5e6e0; /* Set a background color for the grid items */
-    padding: 20px; /* Add some padding to the grid items */
-    text-align: center; /* Center the content within the grid items */
+    background-color: #e5e6e0;
+    padding: 20px; 
+    text-align: center; 
     cursor: pointer;
     max-height: 300px;
   }
@@ -137,6 +140,16 @@ img{
 .date-wandelen-hardlopen{
     flex: 25%;
     font-weight: lighter;
+}
+
+.caption-text{
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+.caption-text a{
+  color: blue;
+  cursor: pointer;
 }
 
 @media (max-width: 991px) {
